@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "flight-ticket-scheduler-201e9"
+  },
+  "targets": {
+    "flight-ticket-scheduler-201e9": {
+      "hosting": {
+        "Flight-Ticket": [
+          "flight-ticket-scheduler-201e9"
+        ]
+      }
+    }
+  }
+}

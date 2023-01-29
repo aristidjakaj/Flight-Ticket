@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+$spacer: 20px;
+
+@for $i from 1 through 5 {
+  .p-#{$i} {
+    padding: ($spacer * ($i / 4)) !important;
+  }
+
+  .px-#{$i} {
+    padding-left: ($spacer * ($i / 4)) !important;
+    padding-right: ($spacer * ($i / 4)) !important;
+  }
+
+  .mt-#{$i} {
+    margin-top: ($spacer * ($i / 4)) !important;
+  }
+}
+
+.w-100 {
+  width: 100% !important;
+}
